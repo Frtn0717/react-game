@@ -1,0 +1,48 @@
+.main {
+  grid-area: main;
+  width: 100%;
+  min-height: 648px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.main_container {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "g1 g2 g3"
+    "g4 g5 g6"
+    "g7 g8 g9";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main_container_cell {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+}
+
+.main_container_cell:hover {
+  background-color: rgb(26, 26, 26);
+}
+
+.main__new_game {
+  float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: flex;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+  border-radius: 2px;
+	background-color: rgb(110, 110, 110);
+  justify-content: center;
+	vertical-align: middle;
+}

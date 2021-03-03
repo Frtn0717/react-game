@@ -1,0 +1,31 @@
+.nav {
+  grid-area: navbar;
+  min-width: 250px;
+  background: #000 ;
+  font-family: Verdana;
+  font: 28px;
+  padding: 10px 15px;
+  color: #fff;
+  margin-left: 30px;
+  border-radius: 12px;
+}
+
+/* .nav_difficulty_btn {
+  background-color: yellow;
+} */
+
+.nav_game_btn {
+  float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: flex;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+  border-radius: 2px;
+	background-color: rgb(87, 87, 87);
+	color: inherit;
+	vertical-align: middle;
+
+
+}
